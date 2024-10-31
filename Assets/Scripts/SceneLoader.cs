@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public enum SceneType
 {
     Title,
-    Main,
+    InGame,
+    InDeongeon,
 }
 
 public class SceneLoader : Singleton<SceneLoader>
