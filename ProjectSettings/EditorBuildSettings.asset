@@ -6,6 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/SuperMaxim/Demo/Scenes/ChatExampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: de582a80e8b0b164a99bf4fee58bffef
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: 264aaa742eea3224c810d3224bb5a3d9
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

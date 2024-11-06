@@ -9,7 +9,7 @@ public class GlobalDefine
     public enum RewardType
     {
         Gold,
-        Crystal,
+        Gem,
     }
 }
 
