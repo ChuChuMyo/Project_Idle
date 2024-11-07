@@ -20,8 +20,8 @@ public class InGameManager : Singleton<InGameManager>
     {
         //FindObjectofType은 씬에 존재하는 타입을 찾아 가장 먼저 찾은인스턴스를 넘겨줌
         //로비유아이컨트롤러는 로비씬에서 하나만 존재할것임
-        InGameUIController = FindObjectOfType<InGameUIController>();
-        //유일하게 존재할 것 이니까 널이라면 애러코드 출력
+        InGameUIController = FindFirstObjectByType<InGameUIController>();
+
         if (!InGameUIController)
         {
             Logger.LogError("LobbyUIController does not exist");
