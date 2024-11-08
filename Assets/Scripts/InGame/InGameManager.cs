@@ -19,7 +19,7 @@ public class InGameManager : Singleton<InGameManager>
     private void Start()
     {
         //FindObjectofType은 씬에 존재하는 타입을 찾아 가장 먼저 찾은인스턴스를 넘겨줌
-        //로비유아이컨트롤러는 로비씬에서 하나만 존재할것임
+        //로비유아이컨트롤러는 로비씬에서 하나만 존재
         InGameUIController = FindFirstObjectByType<InGameUIController>();
 
         if (!InGameUIController)
